@@ -3,7 +3,9 @@ from twilio.rest import Client
 
 app = Flask(__name__)
 
-
+@app.route('/')
+def demo():
+    print("on home screen")
 
 @app.route('/send_whatsapp', methods=['POST'])
 def send_whatsapp():
