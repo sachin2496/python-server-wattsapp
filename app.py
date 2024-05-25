@@ -9,8 +9,8 @@ def demo():
 
 @app.route('/send', methods=['POST'])
 def send_whatsapp():
-    account_sid = 'AC36e5d266b52677fc40ac49767f7d08cb'
-    auth_token = 'f5c89c225cee95f7ca2d47171e2bb738'
+    account_sid = 'AC21fa36c85fdee453c592064943a0b27e'
+    auth_token = 'f784676f7c518c64d3d9506afe2799e5'
     from_whatsapp_number = 'whatsapp:+14155238886'
     to_whatsapp_number = 'whatsapp:+918210072487'
 
