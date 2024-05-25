@@ -5,11 +5,10 @@ app = Flask(__name__)
 
 @app.route('/')
 def demo():
-    print("on home screen")
+    return "hello"
 
-@app.route('/send_whatsapp', methods=['POST'])
+@app.route('/send', methods=['POST'])
 def send_whatsapp():
-    print("hello world")
     account_sid = 'AC36e5d266b52677fc40ac49767f7d08cb'
     auth_token = 'f5c89c225cee95f7ca2d47171e2bb738'
     from_whatsapp_number = 'whatsapp:+14155238886'
