@@ -12,7 +12,7 @@ def send_whatsapp():
     account_sid = 'AC36e5d266b52677fc40ac49767f7d08cb'
     auth_token = 'f5c89c225cee95f7ca2d47171e2bb738'
     from_whatsapp_number = 'whatsapp:+14155238886'
-    to_whatsapp_number = 'whatsapp:+917643927304'
+    to_whatsapp_number = 'whatsapp:+918210072487'
 
     client = Client(account_sid, auth_token)
     message_body = request.form['message']
