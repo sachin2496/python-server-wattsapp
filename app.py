@@ -18,8 +18,8 @@ def send_whatsapp():
     message = request.form['message']
     client = Client(account_sid, auth_token)
     message_body = f'''Name:{name} \n
-                       Email:{email} \n
-                       Message:{message}
+    Email:{email} \n
+    Message:{message}
                                     
                                      '''
     client.messages.create(body=message_body, from_=from_whatsapp_number, to=to_whatsapp_number)
