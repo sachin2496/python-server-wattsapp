@@ -20,7 +20,7 @@ app = Flask(__name__)
 
 @app.route('/submit_form', methods=['POST'])
 def submit_form():
-    account_sid = 'AC36e5d266b52677fc40ac49767f7d08cb'
+    account_sid = ''
     auth_token = ''
     client = Client(account_sid, auth_token)
 
